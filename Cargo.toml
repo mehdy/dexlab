@@ -1,8 +1,17 @@
 [package]
 name = "dexlab"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+authors = ["Mehdi Khoshnoodi <mehdy.khoshnoody@gmail.com>"]
+description = "Dexlab is an automation factory to setup complex pipelines"
+readme = "README.md"
+license-file = "LICENSE"
+repository = "https://github.com/mehdy/dexlab"
+documentation = "https://docs.rs/dexlab"
+homepage = "https://github.com/mehdy/dexlab"
+keywords = ["dexlab", "automation", "pipeline", "workflow", "event-driven"]
+categories = ["asynchronous", "command-line-utilities", "email", "web-programming::http-client"]
+include = ["/src", "README.md"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
